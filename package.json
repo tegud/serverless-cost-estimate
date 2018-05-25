@@ -1,0 +1,31 @@
+{
+  "name": "serverless-cost-estimate",
+  "version": "1.0.1",
+  "description": "Estimate cost of serverless functions (just AWS for now)",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && npm run jest",
+    "lint": "eslint index.js lib/**/*.js tests/**/*.js",
+    "jest": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tegud/serverless-cost-estimate.git"
+  },
+  "keywords": [
+    "aws",
+    "serverless"
+  ],
+  "author": "Steve Elliott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tegud/serverless-cost-estimate/issues"
+  },
+  "homepage": "https://github.com/tegud/serverless-cost-estimate#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "jest": "^22.4.4"
+  }
+}
